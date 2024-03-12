@@ -1,0 +1,218 @@
+@import url('https://g.co/kgs/a5j6A8');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+
+}
+.active {
+    color: #0eb8fbca;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+body , html{
+    overflow-x: hidden;
+
+}
+
+
+/*navbar*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content:space-between ;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./image\ 3\ water-scene\ \(3\).jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+.header-content h2{
+    font-size: 4vmin;
+
+}
+.line {
+    width:250px;
+    height: 2px;
+    background:  #0eb8fbca;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: #1e8c92;
+    border-radius: 30px;
+    color: whitesmoke;
+
+}
+
+.menu-btn {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+ /*events */
+ section{
+    width: 80%;
+    margin: 80px auto;
+ }
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: darkblue;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(217, 240, 244);
+}
+
+.row .col {
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+
+}
+.row .col img {
+    width: 90%;
+    
+
+}
+.events .row {
+    margin-top: 50px ;
+
+}
+h4 {
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+
+}
+p {
+    color: #7c7c7c;
+    padding: 0px 40px;
+}
+
+.events .ctn {
+    margin-top:30px ;
+}
+
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./image-4\ Hipcamp.jpeg') ;
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    color: Beige;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-content h1 {
+    font-size: 7vmin;
+    margin: 50px ;
+    
+
+}
+
+
+.explore-content p {
+    color: rgb(142, 124, 26) Accents;
+    font-size: large;
+}
+.explore-content .ctn{
+    margin-top: 40px;
+
+}
+
+
+
+@media only screen and (max-width:850px){
+    .menu-btn{
+        display: flex;
+
+    }
+    
+    
+    .navbar {
+        padding: 0;
+    }
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: #39395a;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+       
+    }
+    .mobile-menu {
+        margin-top: 0px;
+        border-bottom-right-radius: 30%;
+    }
+    .nav-links li{
+        margin: 30px auto;
+    }
+}
+
