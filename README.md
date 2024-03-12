@@ -26,6 +26,4 @@ Travel Alchemist is a fictional travel agency offering flight booking, hotel res
 1. Clone the repository to your local machine.
 2.Open the index.html file in a web browser to view the website.
 
-# Screenshots
 
-![alt text](C:\Users\aishw\Pictures\Screenshots\Screenshot (770).png)
